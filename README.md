@@ -2,10 +2,6 @@
 
 A deterministic terminal layer that translates Turkish or broken-English prompts into clean, context-complete English. It resolves domain terminology and dangling references without polluting the receiving agent's context.
 
-## Architecture & Roadmap
-For a detailed look at the design, modes, and deterministic behavior, see [ARCHITECTURE.md](files/ARCHITECTURE.md).
-For the project goals and progress, see [ROADMAP.md](files/ROADMAP.md).
-
 ## Requirements
 
 - Python 3.10+
