@@ -1,0 +1,6 @@
+config.yaml
+data/usage.json
+__pycache__/
+*.pyc
+.DS_Store
+.env

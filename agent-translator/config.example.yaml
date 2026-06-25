@@ -1,0 +1,16 @@
+providers:
+  - name: groq
+    type: api
+    model: llama-3.3-70b-versatile
+    api_key: "${GROQ_API_KEY}"
+    free_daily_limit: 1000
+  - name: gemini
+    type: api
+    model: gemini-2.5-flash
+    api_key: "${GEMINI_API_KEY}"
+    free_daily_limit: 50
+  - name: ollama
+    type: local
+    model: qwen2.5:3b
+    free_daily_limit: null
+paid_fallback: false

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Find the absolute path to the directory where this script lives, resolving symlinks
+DIR="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")" && pwd)"
+
+# Pass all arguments exactly as they are to the python script
+python3 "$DIR/agent-translator/translate.py" "$@"
